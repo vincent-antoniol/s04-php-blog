@@ -7,7 +7,7 @@
 <main>
 
     <?php 
-        $article = $articles[0];
+        $article = $articles[3];
 
         include '../templates/article.tpl.php';
     ?>
