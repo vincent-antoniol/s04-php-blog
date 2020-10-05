@@ -33,8 +33,8 @@
                     src="<?= $article['image'] ?>">
                 <h3 class="card-header"><?= $article['title'] ?></h3>
                 <div class="card-body">
-                    <p class="card-text"><?= $article['content'] ?></p><a
-                        href="/article/slamtracker-the-app-that-understands-tennis-better-than-you-do"><button
+                    <p class="card-text"><?= $article['summary'] ?></p><a
+                        href="/articles/<?= $article['id'] ?>.php"><button
                             type="button" class="btn btn-primary">Read more…</button></a>
                 </div>
                 <div class="card-footer"><a href="/category/sports"><span
