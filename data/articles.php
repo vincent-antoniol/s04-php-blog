@@ -104,10 +104,27 @@ function findArticleById(int $id) {
     foreach ($articles as $article) {
         // Si l'Id de l'article est le même que l'Id recherché
         if ($article['id'] === $id) {
-            // Renvo    ie l'article
+            // Renvoie l'article
             return $article;
         }
     }
     // Affiche un message d'erreur
     throw new Error('Article #' . $id . ' could not be found.');
+}
+
+// Fonction permettant de filtrer les articles qui contiennent un mot-clé
+function filterArticlesByKeyword(string $keyword): array {
+    global $articles;
+    // Initialise un tableau "résultat" vide
+    $result = [];
+    // Pour chaque article du tableau "articles"
+    foreach ($articles as $article) {
+        // Si l'article contient le mot-clé recherché
+        if (strpos(strtolower($article['title']), strtolower($keyword)) !== false) {
+            // Ajoute l'article au tableau "résultat"
+            array_push($result, $article);
+        }
+    }
+    // Renvoie le tableau "résultat"
+    return $result;
 }
