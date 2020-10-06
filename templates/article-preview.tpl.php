@@ -4,7 +4,7 @@
         <h3 class="card-header"><?= $article['title'] ?></h3>
         <div class="card-body">
             <p class="card-text"><?= $article['summary'] ?></p><a
-                href="/articles/<?= $article['id'] ?>.php"><button
+                href="/article.php?id=<?= $article['id'] ?>"><button
                     type="button" class="btn btn-primary">Read more…</button></a>
         </div>
         <div class="card-footer"><a href="/category/sports"><span
