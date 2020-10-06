@@ -2,7 +2,7 @@
 
 $articles = [
     [
-        'id' => 1,
+        'id' => 35,
         'image' => 'https://www.datocms-assets.com/23713/1583849712-maxresdefault-1.jpg',
         'title' => 'SlamTracker, the app that understands tennis better than you do',
         'summary' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -22,7 +22,7 @@ $articles = [
     ],
 
     [
-        'id' => 2,
+        'id' => 217,
         'image' => 'https://www.datocms-assets.com/23713/1583849359-chasy-vremya-fon-3277-1.jpg',
         'title' => 'What happened between the 4th and the 15th of October, 1582?',
         'summary' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -61,7 +61,7 @@ $articles = [
     ],
 
     [
-        'id' => 4,
+        'id' => 91,
         'image' => 'https://www.datocms-assets.com/23713/1583745302-wallpaperflare-comwallpaper-2.jpg',
         'title' => 'Do penguins have knees?',
         'summary' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -73,7 +73,7 @@ $articles = [
     ],
 
     [
-        'id' => 5,
+        'id' => 44,
         'image' => 'https://www.datocms-assets.com/23713/1583745209-wallpaperflare-comwallpaper-1.jpg',
         'title' => 'The new Lamborghini',
         'summary' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -85,7 +85,7 @@ $articles = [
     ],
 
     [
-        'id' => 6,
+        'id' => 100,
         'image' => 'https://www.datocms-assets.com/23713/1583745071-wallpaperflare-comwallpaper.jpg',
         'title' => 'My first article',
         'summary' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -96,3 +96,18 @@ $articles = [
         'date' => '3/9/2020, 10:11:20 AM',
     ],
 ];
+
+// Fonction permettant de retrouver un article en fonction de son Id
+function findArticleById(int $id) {
+    global $articles;
+    // Pour chaque article du tableau "articles"
+    foreach ($articles as $article) {
+        // Si l'Id de l'article est le même que l'Id recherché
+        if ($article['id'] === $id) {
+            // Renvo    ie l'article
+            return $article;
+        }
+    }
+    // Affiche un message d'erreur
+    throw new Error('Article #' . $id . ' could not be found.');
+}

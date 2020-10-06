@@ -7,7 +7,7 @@
 <main>
 
     <?php 
-        $article = $articles[$_GET['id'] - 1];
+        $article = findArticleById($_GET['id']);
 
         include './templates/article.tpl.php';
     ?>
