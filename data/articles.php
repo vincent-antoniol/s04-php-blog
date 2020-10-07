@@ -128,3 +128,14 @@ function filterArticlesByKeyword(string $keyword): array {
     // Renvoie le tableau "résultat"
     return $result;
 }
+
+function countArticlesByCategoryId(int $id): int {
+    global $articles;
+    $result = 0;
+    foreach ($articles as $article) {
+        if ($article['category'] === $id) {
+            $result += 1;
+        }
+    }
+    return $result;
+}

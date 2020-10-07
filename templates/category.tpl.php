@@ -2,7 +2,7 @@
     <h1>Category: <?= $category['name'] ?></h1>
     <div>
         <?= $category['description'] ?>
-    </div><a href="/category"><button type="button" class="btn btn-secondary">All Categories</button></a>
+    </div><a href="/category-list.php"><button type="button" class="btn btn-secondary">All Categories</button></a>
 </div>
 
 <h2>Articles listed under <?= $category['name'] ?></h2>
