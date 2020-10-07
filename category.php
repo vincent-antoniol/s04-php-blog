@@ -1,12 +1,12 @@
-<?php include '../data/articles.php'; ?>
+<?php include './data/articles.php'; ?>
 
-<?php include '../templates/head.tpl.php'; ?>
+<?php include './templates/head.tpl.php'; ?>
 
-<?php include '../templates/header.tpl.php'; ?>
+<?php include './templates/header.tpl.php'; ?>
 
 <main>
     <div class="jumbotron">
-        <h1>Category: Culture</h1>
+        <h1>Category: <?= $_GET['name'] ?></h1>
         <div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Ipsum
@@ -22,14 +22,14 @@
         </div><a href="/category"><button type="button" class="btn btn-secondary">All Categories</button></a>
     </div>
 
-    <h2>Articles listed under Culture</h2>
+    <h2>Articles listed under <?= $_GET['name'] ?></h2>
 
     <ul style="padding-inline-start: 0px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1em;">
 
         <?php
             foreach ($articles as $article) {
-                if ($article['category'] === 'Culture') {
-                    include '../templates/article-preview.tpl.php';
+                if ($article['category'] === $_GET['name']) {
+                    include './templates/article-preview.tpl.php';
                 }
             }
         ?>
@@ -37,4 +37,4 @@
     </ul>
 </main>
 
-<?php include '../templates/footer.tpl.php'; ?>
+<?php include './templates/footer.tpl.php'; ?>
