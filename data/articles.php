@@ -17,7 +17,7 @@ $articles = [
         <p>Ac auctor augue mauris augue neque. Neque viverra justo nec ultrices dui sapien eget mi proin. Adipiscing at in tellus integer feugiat. Amet consectetur adipiscing elit ut aliquam purus sit amet luctus. Vel pretium lectus quam id leo. Purus viverra accumsan in nisl nisi scelerisque eu ultrices. Turpis egestas integer eget aliquet nibh praesent tristique magna. Mattis nunc sed blandit libero volutpat sed cras. Ut aliquam purus sit amet. Facilisis sed odio morbi quis commodo odio aenean sed. Sed arcu non odio euismod lacinia at quis risus sed. Leo vel orci porta non pulvinar neque laoreet. Maecenas pharetra convallis posuere morbi. Non odio euismod lacinia at quis. Fermentum dui faucibus in ornare quam viverra orci. Quam nulla porttitor massa id neque aliquam. Nibh venenatis cras sed felis eget velit aliquet.</p>
         
         <p>Integer quis auctor elit sed vulputate mi sit amet mauris. Convallis a cras semper auctor neque vitae. Nisi scelerisque eu ultrices vitae. Laoreet suspendisse interdum consectetur libero id faucibus nisl. Velit euismod in pellentesque massa placerat duis. Pulvinar elementum integer enim neque. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Aliquet sagittis id consectetur purus ut faucibus. Tincidunt id aliquet risus feugiat in ante metus dictum. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Cum sociis natoque penatibus et magnis. Diam vulputate ut pharetra sit amet aliquam id. Curabitur gravida arcu ac tortor dignissim. Amet est placerat in egestas erat imperdiet sed euismod nisi. Malesuada fames ac turpis egestas sed tempus.</p>',
-        'category' => 'Sports',
+        'category' => 2,
         'date' => '3/10/2020, 3:13:26 PM',
     ],
 
@@ -36,7 +36,7 @@ $articles = [
         <p>Etiam erat velit scelerisque in dictum. Eget gravida cum sociis natoque penatibus et magnis dis parturient. Pharetra convallis posuere morbi leo urna. Id cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Arcu risus quis varius quam quisque. Nunc non blandit massa enim nec dui. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Donec ultrices tincidunt arcu non sodales neque sodales ut. Magnis dis parturient montes nascetur ridiculus mus. Lectus urna duis convallis convallis tellus id. Iaculis nunc sed augue lacus viverra vitae congue. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Ac orci phasellus egestas tellus.</p>
         
         <p>Nibh ipsum consequat nisl vel pretium. Sodales ut etiam sit amet nisl purus in. Congue quisque egestas diam in arcu cursus euismod quis viverra. Netus et malesuada fames ac turpis egestas. Nunc sed id semper risus in hendrerit. Luctus accumsan tortor posuere ac ut. Diam maecenas sed enim ut sem viverra aliquet eget sit. Felis donec et odio pellentesque diam. Dui faucibus in ornare quam. Viverra tellus in hac habitasse platea dictumst vestibulum. Sodales ut etiam sit amet nisl purus. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Viverra nibh cras pulvinar mattis nunc sed blandit libero. Dolor purus non enim praesent. Donec ultrices tincidunt arcu non sodales neque. Quisque sagittis purus sit amet volutpat consequat mauris nunc. Risus in hendrerit gravida rutrum quisque non tellus orci ac. Amet tellus cras adipiscing enim eu turpis egestas. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus.</p>',
-        'category' => 'Culture',
+        'category' => 3,
         'date' => '3/10/2020, 3:10:33 PM',
     ],
 
@@ -56,7 +56,7 @@ $articles = [
         <p>Tortor condimentum lacinia quis vel eros donec. Molestie a iaculis at erat pellentesque adipiscing. Vel pharetra vel turpis nunc eget. Morbi leo urna molestie at elementum. Vestibulum lectus mauris ultrices eros in. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Nibh praesent tristique magna sit amet purus. Cursus mattis molestie a iaculis at erat. Mi quis hendrerit dolor magna eget est lorem ipsum dolor. Quam pellentesque nec nam aliquam sem. Ultrices in iaculis nunc sed augue lacus viverra. Volutpat commodo sed egestas egestas fringilla phasellus. Suspendisse faucibus interdum posuere lorem ipsum dolor sit. Nunc pulvinar sapien et ligula ullamcorper malesuada proin. Dictum fusce ut placerat orci nulla pellentesque. Ullamcorper velit sed ullamcorper morbi.</p>
         
         <p>Quam vulputate dignissim suspendisse in est ante in nibh. Sit amet mauris commodo quis. Ipsum a arcu cursus vitae congue mauris rhoncus aenean. Consequat semper viverra nam libero justo laoreet sit. Magna fringilla urna porttitor rhoncus. Tristique sollicitudin nibh sit amet commodo nulla. Est ultricies integer quis auctor elit. Iaculis eu non diam phasellus vestibulum lorem sed. Egestas diam in arcu cursus euismod quis. Vitae congue mauris rhoncus aenean. At volutpat diam ut venenatis. Id faucibus nisl tincidunt eget nullam non nisi est sit. Amet nisl suscipit adipiscing bibendum est ultricies. Id leo in vitae turpis massa sed elementum tempus.</p>',
-        'category' => 'Culture',
+        'category' => 3,
         'date' => '3/10/2020, 3:07:12 PM',
     ],
 
@@ -68,7 +68,7 @@ $articles = [
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim tortor at auctor
         urna nunc id cursus metus. Facilisis leo vel fringilla…',
         'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim tortor at auctor urna nunc id cursus metus. Facilisis leo vel fringilla est. Nulla at volutpat diam ut venenatis tellus. In vitae turpis massa sed elementum tempus egestas. Enim blandit volutpat maecenas volutpat blandit. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Scelerisque eleifend donec pretium vulputate. In dictum non consectetur a erat nam at lectus urna. Augue interdum velit euismod in pellentesque massa placerat. Viverra nam libero justo laoreet sit amet. Rutrum quisque non tellus orci ac auctor augue mauris augue. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Tristique senectus et netus et. Sed risus ultricies tristique nulla. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Tortor aliquam nulla facilisi cras fermentum odio eu. Lacus luctus accumsan tortor posuere ac ut. Tincidunt ornare massa eget egestas purus viverra. Sed velit dignissim sodales ut.</p>',
-        'category' => 'Culture',
+        'category' => 3,
         'date' => '3/9/2020, 10:15:08 AM',
     ],
 
@@ -80,7 +80,7 @@ $articles = [
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin aliquam
         ultrices sagittis orci a scelerisque purus semper. Ut…',
         'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Ut placerat orci nulla pellentesque dignissim enim sit amet venenatis. Urna duis convallis convallis tellus id interdum velit laoreet. Vitae proin sagittis nisl rhoncus mattis rhoncus urna. Elementum facilisis leo vel fringilla est ullamcorper. Lacinia at quis risus sed vulputate odio ut enim. Nunc mattis enim ut tellus elementum sagittis vitae et leo. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Posuere morbi leo urna molestie at elementum. Neque aliquam vestibulum morbi blandit cursus risus at. Id aliquet lectus proin nibh nisl condimentum id venenatis a. Pulvinar pellentesque habitant morbi tristique senectus et netus et.</p>',
-        'category' => 'Sports',
+        'category' => 2,
         'date' => '3/9/2020, 10:13:37 AM',
     ],
 
@@ -92,7 +92,7 @@ $articles = [
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictumst quisque
         sagittis purus sit amet volutpat. Vitae tortor condimentum…',
         'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictumst quisque sagittis purus sit amet volutpat. Vitae tortor condimentum lacinia quis vel eros donec ac odio. Mauris augue neque gravida in fermentum et sollicitudin ac. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Integer malesuada nunc vel risus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Consequat nisl vel pretium lectus quam id leo in vitae. Aliquet nec ullamcorper sit amet risus nullam eget. Urna cursus eget nunc scelerisque viverra mauris in aliquam sem. Sit amet dictum sit amet justo. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. Vel eros donec ac odio. Scelerisque purus semper eget duis. Eget lorem dolor sed viverra ipsum nunc aliquet.</p>',
-        'category' => 'News',
+        'category' => 1,
         'date' => '3/9/2020, 10:11:20 AM',
     ],
 ];

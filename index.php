@@ -1,4 +1,5 @@
 <?php include './data/articles.php'; ?>
+<?php include './data/categories.php'; ?>
 
 <?php include './templates/head.tpl.php'; ?>
 
