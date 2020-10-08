@@ -1,6 +1,7 @@
 <?php
 
 include './data/articles.php';
+include './data/categories.php';
 
 $filteredArticles = filterArticlesByKeyword($_GET['query']);
 

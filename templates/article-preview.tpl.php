@@ -11,8 +11,8 @@
             </form>
             
         </div>
-        <div class="card-footer"><a href="/category/sports"><span
-                    class="badge badge-secondary"><?= $article['category'] ?></span></a> <small class="text-muted">Published on
+        <div class="card-footer"><a href="/category.php?id=<?= $article['category'] ?>"><span
+                    class="badge badge-secondary"><?= findCategoryById($article['category'])['name'] ?></span></a> <small class="text-muted">Published on
                 <?= $article['date'] ?></small></div>
     </div>
 </li>
